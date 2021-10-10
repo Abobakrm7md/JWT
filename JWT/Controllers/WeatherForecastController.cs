@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace JWT.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]")]//test
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
