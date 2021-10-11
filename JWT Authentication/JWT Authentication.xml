@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JWT Authentication</name>
+    </assembly>
+    <members>
+        <member name="M:JWT_Authentication.Controllers.AuthController.RegisterAsync(JWT_Authentication.Model.RegisterModel)">
+            <summary>
+            register new user
+            </summary>
+            <param name="model">model contain user info</param>
+            <returns></returns>
+        </member>
+        <member name="M:JWT_Authentication.Controllers.AuthController.GetTokenAsync(JWT_Authentication.Model.TokenRequestModel)">
+            <summary>
+            Like login
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JWT_Authentication.Controllers.AuthController.AddRoleAsync(JWT_Authentication.Model.AddRoleModel)">
+            <summary>
+            add user to role
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JWT_Authentication.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{JWT_Authentication.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:JWT_Authentication.Controllers.WeatherForecastController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
